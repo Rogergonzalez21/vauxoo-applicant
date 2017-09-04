@@ -20,9 +20,6 @@ CREATE TABLE employee (
 );
 
 CREATE TABLE employee_hobby (
-       id SERIAL PRIMARY KEY,
-       name varchar(200) NOT NULL,
-       description varchar(200)
 );
 
 INSERT INTO employee_department(name, description) values ('Departamento 1', 'Descripcion de Departamento 1');
@@ -36,7 +33,3 @@ INSERT INTO employee(first_name, last_name, id_department) values ('Roger', 'Gon
 INSERT INTO employee(first_name, last_name, id_department) values ('Juan', 'Gonzalez', 2);
 INSERT INTO employee(first_name, last_name, id_department) values ('Francis', 'Sanchez', 3);
 INSERT INTO employee(first_name, last_name, id_department) values ('Pedro', 'Perez', 4);
-
-INSERT INTO employee_hobby(name, description) values ('Hobby 1', 'Descripcion de Hobby 1');
-INSERT INTO employee_hobby(name, description) values ('Hobby 2', 'Descripcion de Hobby 2');
-INSERT INTO employee_hobby(name, description) values ('Hobby 3', 'Descripcion de Hobby 3');
