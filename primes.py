@@ -20,7 +20,7 @@ class PrimeClass(object):
         """
         if num_int == 1:
             return False
-        for x in range(2, num_int):
-            if num_int % x == 0:
+        for iterable in range(2, num_int):
+            if num_int % iterable == 0:
                 return False
         return True

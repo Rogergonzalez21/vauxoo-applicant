@@ -9,7 +9,7 @@ class CalculatorClass(object):
     """This class hosts the function that sums all numbers of any given list.
 
     """
-    def sum(num_list):
+    def sum(self, num_list):
         """Service that calculates the sum of a number list
 
         Args:
